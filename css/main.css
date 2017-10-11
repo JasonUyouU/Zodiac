@@ -15,6 +15,9 @@
 	h2 {
 		font-size: 14px !important;
 	}
+	p#description {
+		font-size: 8px;
+	}
 }
 * {
 	font-family: 'Francois One', sans-serif;
@@ -39,6 +42,16 @@ h1 {
 #addHere {
 	text-align: center;
 }
+select {
+	box-shadow: none;
+	outline: none;
+	border: none;
+	background-color: #fff;
+	padding: 3px 6px;
+}
+select:hover {
+	cursor: pointer;
+}
 #month {
 	color:black;
 }
@@ -50,4 +63,12 @@ h1 {
 }
 .button button {
 	color: black;
+	box-shadow: none;
+	outline: none;
+	border: none;
+	background-color: #fff;
+	padding: 3px 10px;
+}
+button:hover {
+	cursor: pointer;
 }
